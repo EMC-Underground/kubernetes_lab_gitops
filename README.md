@@ -1,4 +1,4 @@
-# kubernetes_lab_gitops
+# kubernetes_paclab_gitops
 
 How to bootstrap K8s cluster.
 
