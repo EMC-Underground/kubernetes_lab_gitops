@@ -14,7 +14,7 @@ helm repo add fluxcd https://charts.fluxcd.io
 ex for using HTTPS:
 ```
 helm upgrade -i flux fluxcd/flux \
---set git.url='https://$(GIT_AUTHUSER):$(GIT_AUTHKEY)@github.com/dilerous/kubernetes_lab_gitops' \
+--set git.url='https://$(GIT_AUTHUSER):$(GIT_AUTHKEY)@github.com/dilerous/kubernetes_paclab_gitops' \
 --set env.secretName=flux-git-auth \
 --namespace flux \
 --set additionalArgs={--sync-garbage-collection}
