@@ -14,4 +14,4 @@ spec:
     path: chart/keel
   valuesFrom:
   - externalSourceRef:
-      url: https://raw.githubusercontent.com/dilerous/kubernetes_lab_gitops/master/keel/values.yaml
+      url: https://raw.githubusercontent.com/EMC-Underground/kubernetes_paclab_gitops/master/keel/values.yaml
